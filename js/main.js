@@ -1,27 +1,27 @@
 const prices = {
   "landing-page": {
-    pm: 700,
-    design: 600,
-    developer: 1200,
-    qa: 500,
+    pm: 80,
+    design: 60,
+    developer: 60,
+    qa: 100,
   },
   "online-store": {
-    pm: 1200,
-    design: 900,
-    developer: 2500,
-    qa: 800,
+    pm: 100,
+    design: 100,
+    developer: 60,
+    qa: 100,
   },
   "web-application": {
-    pm: 2000,
-    design: 1100,
-    developer: 3000,
-    qa: 1000,
+    pm: 40,
+    design: 100,
+    developer: 60,
+    qa: 100,
   },
   "mobile-application": {
-    pm: 3000,
-    design: 1500,
-    developer: 4000,
-    qa: 1300,
+    pm: 100,
+    design: 100,
+    developer: 60,
+    qa: 150,
   },
 };
 
@@ -29,7 +29,7 @@ const prices = {
 // console.log(webSiteElement.value);
 
 function getFormValues() {
-  const webSiteElement = document.querySelector("#project-type");
+  const webSiteElement = document.querySelector("#portrait-type");
 
   const pmRef = document.querySelector("#project-managment");
   const designRef = document.querySelector("#design");
