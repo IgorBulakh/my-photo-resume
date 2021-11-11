@@ -5,6 +5,26 @@
 /* brackpoint - 1024px */
 
 
+@media screen and (min-width: 320px){.modal-conteiner{
+
+  /* height: 608px; */
+  /* width: 364px; */
+  /* padding: 110px 40px; */
+  padding: 70px 30px;
+  
+  }
+}
+@media screen and (min-width: 375px){.modal-conteiner{
+
+  /* height: 608px; */
+  width: 364px;
+  padding: 110px 40px;
+  /* padding: 70px 30px; */
+  
+  }
+}
+
+
 
 
 @media screen and (max-width: 479px) {
@@ -96,6 +116,13 @@
   padding: 60px;
   
 }
+
+.modal-conteiner{
+  
+  height: 608px;
+  padding: 110px 40px;
+  
+  }
 
 }
 
